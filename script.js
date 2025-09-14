@@ -303,7 +303,7 @@ function createPostElement(post) {
     commentInput.disabled = !currentUser;
     
     const commentSubmit = document.createElement('button');
-    commentSubmit.type = 'comment-post-btn';
+    commentSubmit.class = 'comment-post-btn';
     commentSubmit.type = 'submit';
     commentSubmit.textContent = 'Comentar';
     commentSubmit.disabled = !currentUser;
